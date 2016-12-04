@@ -1,0 +1,46 @@
+
+
+.space{
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	background-color: cyan;
+	border: 15px solid white;
+	margin: 4px 0 3px 0;
+}
+
+.sidebar{
+	float: left;
+	position: fixed;
+	width: 30%;
+	border: 2px solid black;
+}
+
+main{
+	border: 2px solid red;
+	margin: 0 40px 0 5px;
+}
+
+
+#board{
+	width: 550px;
+	height: 570px;
+	background-color: black;
+	float: right;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+.taken{
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+	font-size: 48px;
+}
+
+p{
+	text-align: center;
+	font-size: 48px;
+	color: cyan;
+}
